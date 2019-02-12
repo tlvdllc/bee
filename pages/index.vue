@@ -72,13 +72,13 @@
     </header>
 
     <!-- Social Icons -->
-    <transition
-      name="fadeRight"
-      mode="out-in"
-      appear
-    >
-      <bee-social v-if="active" />
-    </transition>
+    <!-- <transition -->
+    <!-- name="fadeRight" -->
+    <!-- mode="out-in" -->
+    <!-- appear -->
+    <!-- > -->
+    <!-- <bee-social v-if="active" /> -->
+    <!-- </transition> -->
 
     <!-- Ad Space -->
     <transition
@@ -129,7 +129,7 @@ import BeeTitle from '@/components/BeeTitle'
 import BeeParticles from '@/components/BeeParticles'
 import BeeSoundButton from '@/components/BeeSoundButton'
 import BeeLoadingIndicator from '@/components/BeeLoadingIndicator'
-import BeeSocial from '@/components/BeeSocial'
+// import BeeSocial from '@/components/BeeSocial'
 import BeeCounter from '@/components/BeeCounter'
 import BeeAd from '@/components/BeeAd'
 import BeeMessenger from '@/components/BeeMessenger'
@@ -144,7 +144,7 @@ export default {
     BeeParticles,
     BeeSoundButton,
     BeeLoadingIndicator,
-    BeeSocial,
+    // BeeSocial,
     BeeCounter,
     BeeAd,
     BeeMessenger,
